@@ -1,8 +1,10 @@
 export const initialState = {
   user: null,
-  playlist: [],
+  playlists: [],
   playing: false,
   item: null,
+  token:
+    "BQCE7CI2JAgw-O2SE3DeNURxTfey5h12ihDqioTQIoBFQ1vDp_e5by88TbLjEs203Ee6Ttx3phZl6u3a7nEf3wmwo4IgNNueKC6nSSiNvZXKsHFCDskuhPNp6OHZdP9jaD-vQUkNb0QFgy6O1NOKjHyPAFCmZ4igcax3CUB0jBARK_32",
 };
 
 const reducer = (state, action) => {
